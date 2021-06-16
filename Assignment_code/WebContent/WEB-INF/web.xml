@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Assign</display-name>
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+  <servlet-name>RegisterServlet1</servlet-name>
+  <servlet-class>RegisterServlet1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>RegisterServlet1</servlet-name>
+  <url-pattern>/RegisterServlet1</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>RegisterServlet2</servlet-name>
+  <servlet-class>RegisterServlet2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>RegisterServlet2</servlet-name>
+  <url-pattern>/RegisterServlet2</url-pattern>
+  </servlet-mapping>
+   
+   <servlet>
+  <servlet-name>UrlReWrite1</servlet-name>
+  <servlet-class>UrlReWrite1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>UrlReWrite1</servlet-name>
+  <url-pattern>/UrlReWrite1</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+<servlet>  
+<servlet-name>UrlReWrite2</servlet-name>  
+<servlet-class>UrlReWrite2</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>UrlReWrite2</servlet-name>  
+<url-pattern>/UrlReWrite2</url-pattern>  
+</servlet-mapping>
+
+<servlet>  
+<servlet-name>SessionServlet1</servlet-name>  
+<servlet-class>SessionServlet1</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>SessionServlet1</servlet-name>  
+<url-pattern>/SessionServlet1</url-pattern>  
+</servlet-mapping>
+
+<servlet>  
+<servlet-name>SessionServlet2</servlet-name>  
+<servlet-class>SessionServlet2</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>SessionServlet2</servlet-name>  
+<url-pattern>/SessionServlet2</url-pattern>  
+</servlet-mapping>
+
+<servlet>  
+    <description></description>  
+    <display-name>User_LoginServlet</display-name>  
+    <servlet-name>User_LoginServlet</servlet-name>  
+    <servlet-class>User_LoginServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>User_LoginServlet</servlet-name>  
+    <url-pattern>/User_LoginServlet</url-pattern>  
+  </servlet-mapping>  
+
+  <servlet>
+  <description></description>  
+    <display-name>LogoutServlet</display-name> 
+  <servlet-name>LogoutServlet</servlet-name>
+  <servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LogoutServlet</servlet-name>
+  <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>  
+    <description></description>  
+    <display-name>User_ReLoginServlet</display-name>  
+    <servlet-name>User_ReLoginServlet</servlet-name>  
+    <servlet-class>User_ReLoginServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>User_ReLoginServlet</servlet-name>  
+    <url-pattern>/User_ReLoginServlet</url-pattern>  
+  </servlet-mapping> 
+  
+  
+  <servlet>  
+    <servlet-name>admin_Servlet1</servlet-name>  
+    <servlet-class>admin_Servlet1</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>admin_Servlet1</servlet-name>  
+    <url-pattern>/admin_Servlet1</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <servlet-name>admin_Servlet2</servlet-name>  
+    <servlet-class>admin_Servlet2</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>admin_Servlet2</servlet-name>  
+    <url-pattern>/admin_Servlet2</url-pattern>  
+  </servlet-mapping> 
+  
+  
+   
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>profile.jsp</welcome-file>
+    <welcome-file>collections.jsp</welcome-file>
+    <welcome-file>user.jsp</welcome-file>
+    <welcome-file>user_profile.jsp</welcome-file>
+    <welcome-file>user_collections.jsp</welcome-file>
+    <welcome-file>admin.jsp</welcome-file>
+    <welcome-file>admin_profile.jsp</welcome-file>
+    <welcome-file>admin_roles.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
